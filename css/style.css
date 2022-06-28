@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+    main
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(25, 25, 24, 0.6) .100%), url("../assets/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.nameFunc
+{
+    margin-left: 20px;
+    text-shadow: 3px 3px 5px black;
+}
+.nameFunc p 
+{
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.social
+{
+    font-size: xx-large;
+    margin-left: 20px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    width: 290px;
+}
+.social a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.itemSocial:hover
+{
+    color: black;
+    text-shadow: 1px 1px 3px white;
+}
+
+#avatar
+{
+    margin-left: -20px;
+    transition: 0.4s;
+}
+#avatar:hover
+{
+    width: 180px;
+}
+
+.blinkBottom
+{
+    transform: rotate(-90deg);
+    font-size: 55pt;
+    position: absolute;
+    bottom: 0;
+    animation: blinkArrow 0.9s infinite ease-out;
+}
+
+/* HABILIDADES */
+.skillsPage
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+}
+.skills
+{
+    font-size: 40pt;
+    transition: 0.4s;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.skills:hover i
+{
+    scale: calc(2);
+}
+
+/*SEÇÃO PROJETOS */
+.projectPage
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+
+}
+.projectPage h2
+{
+    margin: 30px;
+}
+
+
+@keyframes blinkArrow {
+    0%{
+    color: transparent;
+    }
+    100%{
+    color: white;
+    }
+}
