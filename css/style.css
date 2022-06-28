@@ -128,3 +128,26 @@
     color: white;
     }
 }
+
+@media (max-width: 360px)
+{
+    main
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .nameFunc
+    {
+        font-size: 0.9em;
+    }
+    .social
+    {
+        font-size: 1.5em;
+    }
+    #avatar
+    {
+        width: 115px;
+    }
+}
