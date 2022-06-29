@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
 
     <!-- Owl css-->
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
@@ -14,7 +15,7 @@
     <title>  	&lt;Mosiah Silva/&gt; </title>
 </head>
 <body>
-    <main>
+    <main id="mainPage">
         <div class="containerText">
             <div class="nameFunc">
                 <h1><i class="fa-solid fa-code"></i> Mosiah Silva </h1>
@@ -23,8 +24,7 @@
             <section class="social">
                 <a class="itemSocial" href="https://github.com/mosiahrs/" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a class="itemSocial" href="https://www.linkedin.com/in/mosiah-rabello/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a class="itemSocial" href="https://twitter.com/mosiahrs_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a class="itemSocial" href="mailto:mosiahrabello@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a class="itemSocial" href="https://mosiahsilva.blogspot.com/" target="_blank"><i class="fa-brands fa-blogger"></i></a>
             </section>
         </div>
         <div>
@@ -44,8 +44,9 @@
             <i class="devicon-git-plain colored"></i>
             <span hidden><i class="devicon-ubuntu-plain-wordmark colored"></i></span>
         </section>
-    </section>
-    <section class="projectPage">
+    </section>-->
+    
+    <!--<section class="projectPage">
         <h2>Projetos</h2>
             <article class="owl-carousel owl-theme">
                 <div class="item">
@@ -61,11 +62,51 @@
                     <img class="box" src="./assets/Capturar.PNG">
                 </div>
             </article>
-    </section>
--->
+    </section>-->
+    <div id="paginadeContato">
+        <main class="contact">
+            <section class="infoContatMe">
+                <article>
+                    <h2>Get in Touch</h2>
+                    <p>Please fill out the form and we can talk about a partnership.</p>
+                    <p hidden>Por favor, preencha o formulário e podemos falar sobre uma parceria.</p>
+                </article>
+                <span class="socialContact">
+                    <a class="itemSocialContact" href="https://www.linkedin.com/in/mosiah-rabello/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a class="itemSocialContact" href="mailto:mosiahrabello@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </span>
+            </section>
+            <section class="formulario">
+                <form action="https://formsubmit.co/mosiahrabello@gmail.com" method="POST" >
+                    <input type="hidden" name="_template" value="table">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input class="itemForm" type="text" id="nome" name="usuario_nome" required />
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input class="itemForm" type="email" id="email" name="usuario_email" required />
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label>
+                        <textarea class="itemForm" id="msg" name="usuario_msg" maxlength="450" required></textarea>
+                    </div>
+                    <div class="button">
+                        <button class="itemForm" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>copyright © 2022 todos os direitos reservados</p>
+    </footer>
+    
+    <!-- Links externos --->
     <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
-<!--<script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>-->
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
