@@ -37,6 +37,16 @@
     text-shadow: 3px 3px 3px black;
 }
 
+.line{
+border-right: 2px solid rgba(255, 255, 255, .75);
+color: rgba(255, 255, 255, .75);
+font-family: Typewriter, monospace;
+font-size: 1.4em;
+margin: right 14px;
+white-space: nowrap;
+overflow: hidden;
+}
+
 .typing-animation{
     animation: blinkCursor 800ms infinite normal, typing 4.3s steps(30) 1s normal both;
 }
