@@ -37,6 +37,26 @@
     text-shadow: 3px 3px 3px black;
 }
 
+.typing-animation{
+    animation: blinkCursor 800ms infinite normal, typing 4.3s steps(30) 1s normal both;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 7.6em;
+    }
+    }
+@keyframes blinkCursor{
+from{
+    border-right-color: rgba(255, 255, 255, .75);
+}
+to{
+    border-right-color: transparent;
+}
+}
+
 .social
 {
     font-size: xx-large;
