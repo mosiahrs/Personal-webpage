@@ -1,0 +1,63 @@
+@media (max-width: 680px) {
+    .formulario {
+        width: 100%;
+    }
+
+    .infoContatMe {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .socialContact {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    footer {
+        font-size: small;
+    }
+
+    .formulario button {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nameFunc {
+        font-size: 0.9em;
+    }
+
+    .social {
+        font-size: 1.5em;
+    }
+
+    #avatar {
+        margin-top: 20px;
+        width: 115px;
+    }
+
+    footer {
+        font-size: small;
+        text-align: center;
+    }
+
+}
