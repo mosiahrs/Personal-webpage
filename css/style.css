@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 24, 0.6) .100%), url("../assets/jr-korpa-9XngoIpxcEo-unsplash.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 24, 0.6) .100%), url("../assets/cropped.jpg");
     background-size: cover;
     color: #fff;
     overflow: hidden;
