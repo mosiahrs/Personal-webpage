@@ -1,0 +1,10 @@
+            <h5>Languages and Tools</h5>
+            <article class="tools">
+                <span class="skillBadge"><i class="devicon-html5-plain-wordmark colored"></i></span>
+                <span class="skillBadge"><i class="devicon-css3-plain-wordmark colored"></i></span>
+                <span class="skillBadge"><i class="devicon-javascript-plain colored"></i></span>
+                <span class="skillBadge"><i class="devicon-nodejs-plain colored"></i></span>
+                <span class="skillBadge"><i class="devicon-mysql-plain"></i></span>
+                <span class="skillBadge"><i class="devicon-git-plain colored"></i></span>
+                <span class="skillBadge"><i class="devicon-ubuntu-plain-wordmark colored"></i></span>
+            </article>

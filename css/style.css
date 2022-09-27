@@ -1,230 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     display: none;
-    }
+}
 
-#mainPage
-{
+#mainPage {
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(25, 25, 24, 0.6) .100%), url("../assets/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 24, 0.6) .100%), url("../assets/jr-korpa-9XngoIpxcEo-unsplash.jpg");
     background-size: cover;
-    color: white;
+    color: #fff;
     overflow: hidden;
     scrollbar-width: none;
     box-shadow: -3px 0px 8px black;
 }
 
-.nameFunc
-{
+.nameFunc {
     margin-left: 20px;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px #20ACEA;
 }
-.nameFunc p 
-{
+
+.nameFunc p {
     font-size: x-large;
     text-align: center;
     text-shadow: 3px 3px 3px black;
 }
 
-.social
-{
+.difText {
+    color: #20ACEA;
+}
+
+.social {
     font-size: xx-large;
     margin-left: 20px;
     text-align: center;
     text-shadow: 3px 3px 3px black;
     width: 290px;
 }
-.social a
-{
+
+.social a {
     text-decoration: none;
     color: aliceblue;
 }
-.itemSocial:hover
-{
-    color: black;
-    text-shadow: 1px 1px 3px white;
+
+.itemSocial:hover {
+
+    text-shadow: 1px 1px 3px #20ACEA;
 }
 
-#avatar
-{
-    margin-left: -20px;
+#avatar {
     transition: 0.4s;
+    filter: drop-shadow(10px 5px 2.5px rgba(255, 252, 252, 0.884));
+    filter: contrast(0.9)
 }
 
-.blinkBottom
-{
+.blinkBottom a {
     transform: rotate(-90deg);
-    font-size: 55pt;
+    font-size: 35pt;
     position: absolute;
     bottom: 0;
+    right: 50%;
+
     animation: blinkArrow 0.9s infinite ease-out;
 }
 
-/* HABILIDADES */
-.skillsPage
-{
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    background-color: black;
-    flex-direction: column;
-    color: white;
-}
-.skills
-{
-    font-size: 40pt;
-    transition: 0.4s;
-    margin-top: 20px;
-    transition: 0.4s;
-}
-
-/*SEÇÃO PROJETOS */
-.projectPage
-{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    padding-top: 50px;
-    flex-direction: column;
-    align-items: center;
-    background: black;
-    color: white;
-}
-.projectPage h2
-{
-    margin: 15px;
-}
-
-/* RODAPÉ */
-
-footer
-{
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid darkslategray;
-    box-shadow: 0px -3px 8px black;
-    background-color: rgb(20, 27, 27);
-    color: whitesmoke;
-    
-}
-
-
-/* INTERAÇÕES */
-
 @keyframes blinkArrow {
-    0%{
-    color: transparent;
+    0% {
+        color: transparent;
     }
-    100%{
-    color: white;
+
+    100% {
+        color: white;
     }
 }
 
-@media (max-width: 420px)
-{
-    main
-    {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
-    .nameFunc
-    {
-        font-size: 0.9em;
-    }
-    .social
-    {
-        font-size: 1.5em;
-    }
-    #avatar
-    {
-        width: 115px;
-    }
-    footer{
-        font-size: small;
-        text-align: center;
-    }
-    
-}
+/* PAGINA DE CONTATO */
 
-/* contato */ 
-*{scrollbar-width: none;}
-::-webkit-scrollbar {display: none;}
-
-
-a
-{
+a {
     text-decoration: none;
     color: white;
 }
-/*
-.topMenu
-{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 8vh;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-.topMenu p
-{
-    font-size: small;
-}
-.topMenu p a
-{
-    margin-left: 15px;
-}
 
-.contactButtonBack
-{
-    width: 100px;
-    height: 5vh;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    cursor: pointer;
-}
-*/
-.contact
-{
+.contact {
     height: 90vh;
     width: 100%;
     display: flex;
-    /*background-color: rgba(9, 155, 123, 0.767);*/
-    background-color: #309181f5;
+    background: rgba(59, 21, 70, 1);
     color: white;
     padding-right: 10px;
     padding-top: 80px;
     min-width: 300px;
 }
 
-.infoContatMe
-{
+.infoContatMe {
     width: 50%;
     display: flex;
     align-items: flex-start;
@@ -233,89 +112,80 @@ a
     margin-top: 30px;
     font-size: large;
 }
-.infoContatMe p
-{
+
+.infoContatMe p {
     margin-top: 30px;
     margin-bottom: 10px;
     width: 90%;
 }
-.itemSocialContact
-{
+
+.itemSocialContact {
     text-align: center;
     font-size: x-large;
 }
-.socialContact
-{
+
+.socialContact {
     margin-top: 40px;
     margin-left: 80px;
 }
-.formulario
-{
+
+.formulario {
     width: 50%;
     padding: 20px;
     padding-right: 40px;
 }
-#msg
-{
+
+#msg {
     resize: none;
     min-height: 6rem;
 }
-.itemForm
-{
+
+.itemForm {
     width: 100%;
     margin: 10px;
     height: 2rem;
     border: 1px solid transparent;
-    border-radius: 5px ;
+    border-radius: 5px;
     padding-top: 2px;
     padding-left: 5px;
-    color: #309181f5;
     font-weight: 550;
 }
-input
-{
-    color: #309181f5;
+
+input {
+    color: #C11734;
 }
-label
-{
+
+label {
     margin-left: 10px;
 }
-button
-{
-    background-color: white;
-    color: rgba(9, 155, 123, 0.774);
-    font-weight: bolder;
+
+button {
+    width: 100%;
+    margin: 10px;
+    height: 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #20ACEA;
+    color: white;
     font-size: 12pt;
     cursor: pointer;
 }
 
-@media (max-width: 680px){
-    .formulario{
-        width: 100%;
-        padding-right: 40px;
-        padding-top: 0;
-    }
-    .infoContatMe{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .contact{
-        flex-direction: column;
-        padding-top: 0;
-    }
-    .socialContact{
-        margin-top: 5px;
-        margin-left: 0;
-    }
-    h2{
-        text-align: center;
-    }
-    footer{
-        font-size: small;
-    }
-    .formulario button{
-        margin-top: 0;
-    }
+button:hover {
+    box-shadow: 3px 3px 10px white;
+}
+
+/* RODAPÉ */
+
+footer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px dotted transparent;
+    font-size: smaller;
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
