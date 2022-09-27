@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 24, 0.6) .100%), url("../assets/cropped.jpg");
+    background: linear-gradient(90deg, rgba(85, 2, 14, 0.836) 5%, rgba(17, 102, 130, 0.822) 95%), url("../assets/cropped.jpg");
     background-size: cover;
     color: #fff;
     overflow: hidden;
@@ -28,7 +28,7 @@
 
 .nameFunc {
     margin-left: 20px;
-    text-shadow: 3px 3px 5px #20ACEA;
+    text-shadow: 3px 3px 5px black;
 }
 
 .nameFunc p {
@@ -60,9 +60,9 @@
 }
 
 #avatar {
+    width: 125px;
     transition: 0.4s;
-    filter: drop-shadow(10px 5px 2.5px rgba(255, 252, 252, 0.884));
-    filter: contrast(0.9)
+    filter: drop-shadow(10px 8px 10px black);
 }
 
 .blinkBottom a {
@@ -96,7 +96,8 @@ a {
     height: 90vh;
     width: 100%;
     display: flex;
-    background: rgba(59, 21, 70, 1);
+    background: linear-gradient(90deg, rgba(85, 2, 14, 0.836) 5%, rgba(17, 102, 130, 0.822) 95%), url(../assets/fundo-de-tecnologia-do-circuito-da-placa-mae-em-gradiente-azul_53876-124645.webp);
+    background-size: cover;
     color: white;
     padding-right: 10px;
     padding-top: 80px;
