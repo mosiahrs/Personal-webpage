@@ -176,25 +176,6 @@ h5 {
   font-weight: lighter;
 }
 
-@media (min-width: 992px) {
-  .container {
-    display: flex;
-  }
-
-  .experiences {
-    display: flex;
-  }
-
-  .experiences-description {
-    width: 100%;
-  }
-  .experiences-date {
-    width: 300px;
-    font-weight: lighter;
-  }
-
-  .information-column {
-    background-color: #000;
-    padding: 40px;
-  }
+.tools .skillBadge{
+  font-size:36px;
 }
